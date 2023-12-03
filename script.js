@@ -1,6 +1,6 @@
 const var1 = document.getElementById("var1");
 const var2 = document.getElementById("var2");
-const apiKey = "48dff6e4d6cb13b4a30482b24d45c365";
+const apiKey = "e3589a0026207a1f549eaa2079a1593f";
 
 
 function getGeolocation() {
