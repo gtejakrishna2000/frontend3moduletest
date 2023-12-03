@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WEATHER</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <main id="var1">
+        <h1>Weather API</h1>
+        <button onclick="getGeolocation()">Fetch Data</button>
+    </main>
+    <main id="var2">
+        <div class="hero">
+            <header class="title">Welcome To The Weather App</header>
+            <p>Here is your current location</p>
+            <span class="coordinates" id="latitude">
+            </span>
+            <span class="coordinates" id="longitude">
+            </span>
+            <br>
+            <iframe id="map">
+            </iframe>
+        </div>
+        <div class="data_container">
+            <h1>Your Weather Data</h1>
+            <div class="data">
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
